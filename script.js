@@ -2,7 +2,7 @@ let taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict'; // replace with your
 const centralCoordinates = [-74.00597, 40.71427]; // starting position [lng, lat]
 
 if (window.location.href.includes('https://taxifare.lewagon.com')) {
-  taxiFareApiUrl = 'https://taxifare.lewagon.ai/';
+  taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict';
 }
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZW1hbnVlbHB0IiwiYSI6ImNsaWViaXprczA3djkzanA2cTJncDk5am0ifQ.2Te8YgHjlwTxnVg04wDsbw';
